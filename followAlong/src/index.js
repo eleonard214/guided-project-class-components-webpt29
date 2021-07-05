@@ -64,13 +64,17 @@ class App extends React.Component {
     });
   }
 
+  addItem = title => {
+    //do state stuff
+  }
+
   // Class methods to update state
   render() {
     return (
       <div className="App">
         <div className="header">
           <h1>Shopping List</h1>
-          <ListForm />
+          <ListForm addItem={this.addItem} />
         </div>
         <GroceryList toggleItem={this.toggleItem} groceries={this.state.groceries} />
       </div>
