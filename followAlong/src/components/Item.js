@@ -10,6 +10,10 @@ const Item = props => {
   const handleClick = () => {
     console.log("item: " + item.name);
     //change purchased to true
+    setItem({
+      ...item,
+      purchased: true
+    });
   }
 
   return (
