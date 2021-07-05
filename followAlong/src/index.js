@@ -47,6 +47,11 @@ class App extends React.Component {
     }
   }
 
+  toggleItem = id => {
+    console.log(id);
+    //set state for groceries with id's purchase flipped
+  }
+
   // Class methods to update state
   render() {
     return (
