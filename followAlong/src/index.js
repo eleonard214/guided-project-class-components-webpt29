@@ -79,7 +79,9 @@ class App extends React.Component {
   }
 
   clearPurchased = () => {
+    this.setState({
 
+    });
   }
 
   // Class methods to update state
