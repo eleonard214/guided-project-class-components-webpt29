@@ -68,7 +68,7 @@ class App extends React.Component {
     console.log("App: " + name);
     this.setState({
       ...this.state,
-      groceries: this.state.groceries
+      groceries: [...this.state.groceries]
     });
     //return a list that contains all of groceries previous items, with a new item added.
   }
