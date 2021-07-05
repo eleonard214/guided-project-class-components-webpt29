@@ -8,7 +8,9 @@ const App = () => {
     <div>
       <h1>Hello {name}.</h1>
       <h2>Are you {age}?</h2>
-      <button>Change the name</button>
+      <button onClick={() => {
+        console.log("clcked it!!");
+      }}>Change the name</button>
     </div>
   );
 };
