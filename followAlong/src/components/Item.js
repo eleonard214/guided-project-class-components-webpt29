@@ -8,6 +8,7 @@ const Item = props => {
   // });
 
   const handleClick = () => {
+    console.log("item props: ", props);
     console.log("item: " + props.item.name);
     // setItem({
     //   ...item,
