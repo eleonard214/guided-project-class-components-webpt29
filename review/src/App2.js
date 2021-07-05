@@ -10,8 +10,8 @@ import React from 'react';
 class Person extends React.Component {
   render() {
     return (<div>
-      <h1>Hello {props.name}.</h1>
-      <h2>Hello {props.age}.</h2>
+      <h1>Hello {this.props.name}.</h1>
+      <h2>Hello {this.props.age}.</h2>
     </div>);
   }
 }
