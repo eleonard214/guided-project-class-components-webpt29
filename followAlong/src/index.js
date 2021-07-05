@@ -65,8 +65,6 @@ class App extends React.Component {
   }
 
   addItem = name => {
-    console.log("App: " + name);
-
     const newItem = {
       name: name,
       id: Date.now(),
