@@ -66,9 +66,16 @@ class App extends React.Component {
 
   addItem = name => {
     console.log("App: " + name);
+
+    const newItem = {
+      name: '',
+      id: 1,
+      purchased: false
+    };
+
     this.setState({
       ...this.state,
-      groceries: [...this.state.groceries]
+      groceries: [...this.state.groceries, newItem]
     });
     //return a list that contains all of groceries previous items, with a new item added.
   }
