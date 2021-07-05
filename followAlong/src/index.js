@@ -51,8 +51,10 @@ class App extends React.Component {
     console.log("App: ", id);
     //set state for groceries with id's purchase flipped
     this.setState({
-      ...this.groceries,
-      groceries: 
+      ...this.state.groceries,
+      groceries: this.state.groceries.map(item => {
+
+      })
     });
   }
 
