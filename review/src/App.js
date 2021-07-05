@@ -7,6 +7,8 @@ const App = () => {
   return (
     <div>
       <h1>Hello {name}.</h1>
+      <h2>Are you {age}?</h2>
+      <button>Change the name</button>
     </div>
   );
 };
