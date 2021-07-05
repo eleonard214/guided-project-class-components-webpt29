@@ -19,7 +19,7 @@ class ListForm extends React.Component {
   // class property to submit form
   handleSubmit = e => {
     e.preventDefault();
-
+    this.props.addItem(this.state.input);
   }
 
 
