@@ -70,6 +70,7 @@ class App extends React.Component {
       ...this.state,
       groceries:
     );
+    //return a list that contains all of groceries previous items, with a new item added.
   }
 
   // Class methods to update state
