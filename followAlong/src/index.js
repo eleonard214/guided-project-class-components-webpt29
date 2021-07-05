@@ -90,8 +90,6 @@ class App extends React.Component {
 
   // Class methods to update state
   render() {
-    console.log(this.state.groceries);
-
     return (
       <div className="App">
         <div className="header">
