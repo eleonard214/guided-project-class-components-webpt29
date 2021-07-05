@@ -68,7 +68,7 @@ class App extends React.Component {
     console.log("App: " + name);
 
     const newItem = {
-      name: '',
+      name: name,
       id: Date.now(),
       purchased: false
     };
