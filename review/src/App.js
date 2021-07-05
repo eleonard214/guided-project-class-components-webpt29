@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 
 const App = () => {
-  const name = "Warren";
+  const name = "Allison";
 
   return (
     <div>
-      <h1>Hello Warren</h1>
+      <h1>Hello {name}.</h1>
     </div>
   );
 };
