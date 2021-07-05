@@ -4,7 +4,7 @@ import Item from "./Item";
 
 const GroceryList = props => {
   const handleClick = () => {
-
+    props.clearPurchased();
   }
 
   return (
