@@ -12,7 +12,7 @@ const Item = props => {
     //change purchased to true
     setItem({
       ...item,
-      purchased: true
+      purchased: item.purchased ? false : true
     });
   }
 
