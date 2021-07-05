@@ -8,8 +8,7 @@ const Item = props => {
   // });
 
   const handleClick = () => {
-    console.log("item props: ", props);
-    console.log("item: " + props.item.name);
+    props.toggleItem(props.item.id);
     // setItem({
     //   ...item,
     //   purchased: !item.purchased
