@@ -64,7 +64,8 @@ class App extends React.Component {
     });
   }
 
-  addItem = title => {
+  addItem = name => {
+    console.log("App: " + name);
     //do state stuff
   }
 
