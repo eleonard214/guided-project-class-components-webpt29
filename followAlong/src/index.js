@@ -69,7 +69,7 @@ class App extends React.Component {
 
     const newItem = {
       name: '',
-      id: 1,
+      id: Date.now(),
       purchased: false
     };
 
