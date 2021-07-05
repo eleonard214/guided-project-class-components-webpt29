@@ -66,7 +66,10 @@ class App extends React.Component {
 
   addItem = name => {
     console.log("App: " + name);
-    //do state stuff
+    this.setState(
+      ...this.state,
+      groceries:
+    );
   }
 
   // Class methods to update state
