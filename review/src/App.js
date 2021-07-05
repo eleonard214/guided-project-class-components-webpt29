@@ -20,8 +20,6 @@ const App = () => {
   return (
     <div>
       <Person name={name} age={age} />
-      <Person name={name} age={age} />
-      <Person name={name} age={age} />
       <button onClick={handleClick}>Change the name</button>
     </div>
   );
