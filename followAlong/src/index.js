@@ -48,7 +48,6 @@ class App extends React.Component {
   }
 
   toggleItem = id => {
-    console.log("App: ", id);
     //set state for groceries with id's purchase flipped
     this.setState({
       ...this.state.groceries,
