@@ -28,8 +28,7 @@ class App2 extends React.Component {
   handleClick = () => {
     this.setState({
       ...this.state,
-      name: "Allison",
-      age: 12
+      name: "Allison"
     });
   }
 
