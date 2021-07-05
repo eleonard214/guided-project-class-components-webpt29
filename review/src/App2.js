@@ -4,13 +4,15 @@ class App2 extends React.Component {
   constructor() {
     super();
     this.state = {
-      name: "Warren",
+      name: "All",
       age: 35
     }
   }
 
   render() {
-    return (<h1>Hello {name}.</h1>);
+    return (<div>
+      <h1>Hello {this.state.name}.</h1>
+    </div>);
   }
 }
 
