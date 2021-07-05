@@ -21,11 +21,7 @@ class App2 extends React.Component {
     return (<div>
       <h1>Hello {this.state.name}.</h1>
       <h2>Hello {this.state.age}.</h2>
-      <button onClick={
-        () => {
-
-        }
-      }>Change the name</button>
+      <button onClick={this.handleClick}>Change the name</button>
     </div>);
   }
 }
