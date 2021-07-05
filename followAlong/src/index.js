@@ -78,6 +78,10 @@ class App extends React.Component {
     //return a list that contains all of groceries previous items, with a new item added.
   }
 
+  clearPurchased = () => {
+
+  }
+
   // Class methods to update state
   render() {
     return (
