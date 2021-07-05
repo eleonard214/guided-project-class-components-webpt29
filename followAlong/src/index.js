@@ -80,8 +80,12 @@ class App extends React.Component {
 
   clearPurchased = () => {
     this.setState({
-
+      ...this.state,
+      groceries: this.state.filter(item => {
+        return item.name === "Bananas"
+      })
     });
+    //return a list of all groceries items where purchased === false
   }
 
   // Class methods to update state
