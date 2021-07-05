@@ -5,7 +5,8 @@ const App = () => {
   const [age, setAge] = useState(34);
 
   const handleClick = () => {
-
+    setName("Allison");
+    setAge(12);
   }
 
   return (
