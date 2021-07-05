@@ -8,12 +8,13 @@ const Item = props => {
   });
 
   const handleClick = () => {
-    console.log("item: " + props.item.name);
+    console.log("item: " + item.name);
+    //change purchased to true
   }
 
   return (
-    <div onClick={handleClick} className={`item${props.item.purchased ? ' purchased' : ''}`}>
-      <p>{props.item.name}</p>
+    <div onClick={handleClick} className={`item${item.purchased ? ' purchased' : ''}`}>
+      <p>{item.name}</p>
     </div>
   );
 };
